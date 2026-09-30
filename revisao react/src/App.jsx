@@ -1,5 +1,6 @@
 import "./App.css";
 import ManageData from "./components/ManageData.jsx";
+import ListRender from "./components/ListRender.jsx";
 
 import city from "./assets/city.jpg";
 
@@ -15,6 +16,7 @@ function App() {
         {/* Imagem importada de src/assets */}
         <img src={city} alt="Cidade" />
         <ManageData />
+        <ListRender />
       </div>
     </div>
   );
