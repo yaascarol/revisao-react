@@ -1,8 +1,9 @@
 import "./App.css";
 import ManageData from "./components/ManageData.jsx";
 import ListRender from "./components/ListRender.jsx";
-import ConditionalRender from "./components/ConditionalRender.jsx"
-import ShowUserName from "./components/ShowUserName.jsx"
+import ConditionalRender from "./components/ConditionalRender.jsx";
+import ShowUserName from "./components/ShowUserName.jsx";
+import CarDetails from "./components/CarDetails.jsx"
 
 import city from "./assets/city.jpg";
 
@@ -21,6 +22,9 @@ function App() {
         <ListRender />
         <ConditionalRender />
         <ShowUserName name ="yasmin" />
+        <CarDetails brand="honda" color="azul" km={1000} />
+        <CarDetails brand="ford" color="preto" km={0} />
+        <CarDetails brand="fiat" color="branco" km={50000} />
       </div>
     </div>
   );
